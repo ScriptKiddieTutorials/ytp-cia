@@ -1,0 +1,12 @@
+h1, h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel {
+  width: 500px;
+}

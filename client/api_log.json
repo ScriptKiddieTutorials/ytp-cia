@@ -1,0 +1,3529 @@
+{
+  "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+  "object" : {
+    "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/api-types-3",
+    "@type" : "http://midpoint.evolveum.com/xml/ns/public/common/api-types-3#ObjectListType",
+    "object" : [ {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:13.410Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:13.570Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:13.335Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:13.410Z"
+        }
+      },
+      "oid" : "b2d18e63-f059-4bda-99dd-949eb2ba898e",
+      "version" : "3",
+      "name" : "009",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:13.609Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000976
+          },
+          "objectName" : "009"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000977
+          },
+          "objectName" : "009",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000978
+          },
+          "objectName" : "009"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:13.410Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:13.335Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:13.410Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "b2d18e63-f059-4bda-99dd-949eb2ba898e",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "48e06b67-ef60-4f64-a658-ccf18098b5c3",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:13.335Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:13.335Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "p4JLQr0dHK27Ym21DnKjrJpQS6/R603TsKaocnmhTl8="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Andrea Žibritovská",
+      "givenName" : "Andrea",
+      "familyName" : "Žibritovská",
+      "personalNumber" : "009"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:13.805Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:13.966Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:13.714Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:13.805Z"
+        }
+      },
+      "oid" : "d82a16a0-a606-422d-94a8-237d58c1468e",
+      "version" : "3",
+      "name" : "010",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:14.018Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001002
+          },
+          "objectName" : "010"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001003
+          },
+          "objectName" : "010",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001004
+          },
+          "objectName" : "010"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:13.805Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:13.714Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:13.805Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "d82a16a0-a606-422d-94a8-237d58c1468e",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "000399e7-bbce-49e8-b776-13347fba6dd0",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:13.714Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:13.714Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "8Rb+RiFrbHh6o7M5FRUAnyurVeFvalpce7ArhkF7c0U="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Veronika Kolpaščiková",
+      "givenName" : "Veronika",
+      "familyName" : "Kolpaščiková",
+      "personalNumber" : "010"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:09.434Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:09.798Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:06.525Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:09.434Z"
+        }
+      },
+      "oid" : "84bcbf7c-25e8-4b81-adfc-66a722959c62",
+      "version" : "3",
+      "name" : "001",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:09.860Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000767
+          },
+          "objectName" : "001"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000768
+          },
+          "objectName" : "001",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000769
+          },
+          "objectName" : "001"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:09.434Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:06.525Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:09.434Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "84bcbf7c-25e8-4b81-adfc-66a722959c62",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "ca8bda95-ca08-4442-9ee6-adab2e840c27",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:06.526Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:06.526Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "oQIXoxaa3qmMnUXIqrzBhtkR+OcFXR72u99s98QMIW8="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Igor Farinič",
+      "givenName" : "Igor",
+      "familyName" : "Farinič",
+      "personalNumber" : "001"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:10.081Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-02-01T08:42:56.862Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:09.988Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:10.081Z"
+        }
+      },
+      "oid" : "9fe0eb12-4b18-4a29-9e9b-8d429e52dce8",
+      "version" : "5",
+      "name" : "002",
+      "extension" : {
+        "@ns" : "http://example.com/xml/ns/midpoint/schema",
+        "hatSize" : "bvcde45tyuikjnbvcdrt6uio"
+      },
+      "operationExecution" : [ {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:10.331Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000793
+          },
+          "objectName" : "002"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000794
+          },
+          "objectName" : "002",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000795
+          },
+          "objectName" : "002"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      }, {
+        "@id" : 10,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-01T08:42:57.158Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001079
+          },
+          "objectName" : "002"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      } ],
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:10.081Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:09.988Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:10.081Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "9fe0eb12-4b18-4a29-9e9b-8d429e52dce8",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "c5a47f6b-3842-4e71-b8be-abc5653da78b",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:09.988Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:09.988Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "lMr7TeGQGlpa5Ks4h+zHiGuH9ZEjPmjYOAsCxisTi7s="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Radovan Semančík",
+      "givenName" : "Radovan",
+      "familyName" : "Semančík",
+      "personalNumber" : "002"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2024-10-28T15:54:35.463Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user",
+          "modifyTimestamp" : "2025-02-26T15:26:50.917Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyTaskRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000007",
+            "relation" : "org:default",
+            "type" : "c:TaskType"
+          }
+        },
+        "process" : {
+          "requestTimestamp" : "2024-10-28T15:54:34.749Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        }
+      },
+      "oid" : "38af8426-66b8-4710-9d68-423e924265ad",
+      "version" : "26",
+      "name" : "user01",
+      "operationExecution" : [ {
+        "@id" : 10,
+        "recordType" : "simple",
+        "timestamp" : "2024-11-09T01:47:13.097Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000198596
+          },
+          "objectName" : "user01"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      }, {
+        "@id" : 12,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-26T15:04:43.996Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000153127
+          },
+          "objectName" : "user01"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      }, {
+        "@id" : 14,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-26T15:07:31.443Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000154394
+          },
+          "objectName" : "user01"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      }, {
+        "@id" : 17,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-26T15:09:13.720Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000155099
+          },
+          "objectName" : "user01"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      }, {
+        "@id" : 18,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-26T15:26:50.957Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000157285
+          },
+          "objectName" : "user01"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "taskRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000007",
+          "relation" : "org:default",
+          "type" : "c:TaskType"
+        },
+        "activityPath" : { }
+      }, {
+        "@id" : 19,
+        "recordType" : "complex",
+        "timestamp" : "2025-02-26T15:26:51.005Z",
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "taskRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000007",
+          "relation" : "org:default",
+          "type" : "c:TaskType"
+        },
+        "activityPath" : { }
+      } ],
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2024-10-28T15:54:35.463Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+          },
+          "process" : {
+            "requestTimestamp" : "2024-10-28T15:54:34.749Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          },
+          "provenance" : {
+            "acquisition" : {
+              "@id" : 4,
+              "actorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user",
+              "timestamp" : "2024-10-28T15:54:34.714Z"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 5,
+          "storage" : {
+            "createTimestamp" : "2024-10-28T15:54:35.385Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "38af8426-66b8-4710-9d68-423e924265ad",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 6,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2024-10-28T15:54:34.816Z",
+        "lockoutStatus" : "normal"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 11,
+            "storage" : {
+              "createTimestamp" : "2025-02-26T15:04:43.708Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user",
+              "modifyTimestamp" : "2025-02-26T15:07:31.340Z",
+              "modifierRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+            }
+          },
+          "name" : "user01",
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "8kVCuu5ZyKptIIfVFzRA0mUZm4jNGLRVgoq4EfWzF54="
+              }
+            }
+          },
+          "hint" : "hey"
+        }
+      },
+      "behavior" : {
+        "authentication" : {
+          "@id" : 13,
+          "failedLogins" : 0,
+          "lastFailedLogin" : {
+            "timestamp" : "2025-02-26T15:08:05.994Z",
+            "from" : "172.18.0.2"
+          },
+          "authenticationAttempt" : {
+            "sequenceIdentifier" : "admin-gui-default",
+            "moduleIdentifier" : "loginForm",
+            "lastFailedAuthentication" : {
+              "timestamp" : "2025-02-26T15:08:05.976Z",
+              "from" : "172.18.0.2"
+            },
+            "failedAttempts" : 0
+          },
+          "sequenceIdentifier" : "admin-gui-default"
+        }
+      },
+      "fullName" : "Allen Lee"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:10.702Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:11.042Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:10.445Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:10.702Z"
+        }
+      },
+      "oid" : "30518166-e29e-41e3-b2d4-159cd8be7949",
+      "version" : "3",
+      "name" : "003",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:11.084Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000819
+          },
+          "objectName" : "003"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000820
+          },
+          "objectName" : "003",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000821
+          },
+          "objectName" : "003"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:10.702Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:10.445Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:10.702Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "30518166-e29e-41e3-b2d4-159cd8be7949",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "8525b8c3-9d1c-43ee-842d-00b3f0a04647",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:10.446Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:10.446Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "QwFOeBkRQDC3qoHBJXQE8MZxYxrKa51rOL+JKT3xhBc="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Katarína Valaliková",
+      "givenName" : "Katarína",
+      "familyName" : "Valaliková",
+      "personalNumber" : "003"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:12.197Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:12.363Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:12.091Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:12.197Z"
+        }
+      },
+      "oid" : "ca52819a-babe-4dca-90f3-7a2634d2cd99",
+      "version" : "3",
+      "name" : "006",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:12.405Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000898
+          },
+          "objectName" : "006"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000899
+          },
+          "objectName" : "006",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000900
+          },
+          "objectName" : "006"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:12.197Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:12.091Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:12.197Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "ca52819a-babe-4dca-90f3-7a2634d2cd99",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "840d714a-1db5-4e86-96c8-812fc833665a",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:12.091Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:12.091Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "GGXDFD7t6FmZg9wRqeITww0o8vpaC372P5ArgksfjqY="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Kate Honchar",
+      "givenName" : "Kate",
+      "familyName" : "Honchar",
+      "personalNumber" : "006"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:11.270Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:11.502Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:11.183Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:11.270Z"
+        }
+      },
+      "oid" : "99e00d17-150e-4a16-9356-87de1890a8ea",
+      "version" : "3",
+      "name" : "004",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:11.551Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000846
+          },
+          "objectName" : "004"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000847
+          },
+          "objectName" : "004",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000848
+          },
+          "objectName" : "004"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:11.270Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:11.183Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:11.270Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "99e00d17-150e-4a16-9356-87de1890a8ea",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "7131ccb0-f4fa-41bd-9d93-65689e3e49f3",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:11.183Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:11.183Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "gIZWa6E9mEVySrSU3dG1LFxeK2GIidqQ1f3Mp9eS4xg="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Pavol Mederly",
+      "givenName" : "Pavol",
+      "familyName" : "Mederly",
+      "personalNumber" : "004"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:11.749Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:11.926Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:11.654Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:11.749Z"
+        }
+      },
+      "oid" : "f94bca32-9a10-494e-a7ec-4357c5aa2f76",
+      "version" : "3",
+      "name" : "005",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:11.969Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000872
+          },
+          "objectName" : "005"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000873
+          },
+          "objectName" : "005",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000874
+          },
+          "objectName" : "005"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:11.749Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:11.654Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:11.749Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "f94bca32-9a10-494e-a7ec-4357c5aa2f76",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "9f2fa215-8f30-44ec-99ca-263b1f05908d",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:11.655Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:11.655Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "IR+eLJS0iOcxwNPORdsdujLtvInjS5eJlMuzP7RiMls="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Viliam Repáň",
+      "givenName" : "Viliam",
+      "familyName" : "Repáň",
+      "personalNumber" : "005"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 3,
+        "storage" : {
+          "createTimestamp" : "2024-10-28T15:23:39.141Z",
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init",
+          "modifyTimestamp" : "2025-02-27T00:34:25.021Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+        },
+        "process" : {
+          "requestTimestamp" : "2024-10-28T15:23:37.605Z"
+        }
+      },
+      "oid" : "00000000-0000-0000-0000-000000000002",
+      "version" : "227",
+      "name" : "administrator",
+      "operationExecution" : [ {
+        "@id" : 15,
+        "recordType" : "simple",
+        "timestamp" : "2024-10-28T16:01:59.296Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001120
+          },
+          "objectName" : "administrator"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      }, {
+        "@id" : 16,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-01T08:44:10.169Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001356
+          },
+          "objectName" : "administrator"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      }, {
+        "@id" : 17,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-26T15:12:49.030Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000156433
+          },
+          "objectName" : "administrator"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      }, {
+        "@id" : 23,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-26T22:41:50.959Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000161973
+          },
+          "objectName" : "administrator"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "taskRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000007",
+          "relation" : "org:default",
+          "type" : "c:TaskType"
+        },
+        "activityPath" : { }
+      }, {
+        "@id" : 24,
+        "recordType" : "complex",
+        "timestamp" : "2025-02-26T22:41:51.017Z",
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "taskRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000007",
+          "relation" : "org:default",
+          "type" : "c:TaskType"
+        },
+        "activityPath" : { }
+      }, {
+        "@id" : 25,
+        "recordType" : "simple",
+        "timestamp" : "2025-02-27T00:34:25.087Z",
+        "operation" : {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000163795
+          },
+          "objectName" : "administrator"
+        },
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+      } ],
+      "indestructible" : true,
+      "assignment" : [ {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 4,
+          "storage" : {
+            "createTimestamp" : "2024-10-28T15:23:39.141Z",
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init"
+          },
+          "process" : {
+            "requestTimestamp" : "2024-10-28T15:23:37.605Z"
+          },
+          "provenance" : {
+            "acquisition" : {
+              "@id" : 5,
+              "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init",
+              "timestamp" : "2024-10-28T15:23:37.605Z"
+            }
+          }
+        },
+        "@id" : 1,
+        "identifier" : "superuserRole",
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000004",
+          "relation" : "org:default",
+          "type" : "c:RoleType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      }, {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 6,
+          "storage" : {
+            "createTimestamp" : "2024-10-28T15:23:39.141Z",
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init"
+          },
+          "process" : {
+            "requestTimestamp" : "2024-10-28T15:23:37.605Z"
+          },
+          "provenance" : {
+            "acquisition" : {
+              "@id" : 7,
+              "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init",
+              "timestamp" : "2024-10-28T15:23:37.605Z"
+            }
+          }
+        },
+        "@id" : 2,
+        "identifier" : "archetype",
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000300",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      } ],
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000300",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : [ {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 11,
+          "storage" : {
+            "createTimestamp" : "2024-10-28T15:23:37.645Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 12,
+                "segmentOrder" : 1,
+                "assignmentId" : 2,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000300",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000300",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      }, {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 9,
+          "storage" : {
+            "createTimestamp" : "2024-10-28T15:23:37.644Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 10,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000004",
+                  "relation" : "org:default",
+                  "type" : "c:RoleType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000004",
+        "relation" : "org:default",
+        "type" : "c:RoleType"
+      } ],
+      "activation" : {
+        "administrativeStatus" : "enabled",
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2024-10-28T15:23:37.617Z",
+        "lockoutStatus" : "normal"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 8,
+            "storage" : {
+              "createTimestamp" : "2024-10-28T15:23:37.617Z",
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init",
+              "modifyTimestamp" : "2025-02-27T00:34:24.954Z",
+              "modifierRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user"
+            }
+          },
+          "name" : "jeff",
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "XVrCGycckfEiBA9LTtFeCtZ5p8RSzufEsM/X5BYxUhU="
+              }
+            }
+          },
+          "hint" : "hey"
+        }
+      },
+      "behavior" : {
+        "authentication" : [ {
+          "@id" : 14,
+          "failedLogins" : 0,
+          "lastSuccessfulLogin" : {
+            "timestamp" : "2025-02-27T00:54:23.097Z",
+            "from" : "172.18.0.2"
+          },
+          "previousSuccessfulLogin" : {
+            "timestamp" : "2025-02-27T00:36:27.990Z",
+            "from" : "172.18.0.2"
+          },
+          "lastFailedLogin" : {
+            "timestamp" : "2025-02-27T00:32:51.791Z",
+            "from" : "172.18.0.2"
+          },
+          "authenticationAttempt" : {
+            "sequenceIdentifier" : "admin-gui-default",
+            "moduleIdentifier" : "loginForm",
+            "lastSuccessfulAuthentication" : {
+              "timestamp" : "2025-02-27T00:54:23.064Z",
+              "from" : "172.18.0.2"
+            },
+            "lastFailedAuthentication" : {
+              "timestamp" : "2025-02-27T00:32:51.778Z",
+              "from" : "172.18.0.2"
+            },
+            "failedAttempts" : 0
+          },
+          "sequenceIdentifier" : "admin-gui-default"
+        }, {
+          "@id" : 26,
+          "failedLogins" : 0,
+          "lastSuccessfulLogin" : {
+            "timestamp" : "2025-02-27T01:44:59.713Z",
+            "from" : "118.163.88.52"
+          },
+          "previousSuccessfulLogin" : {
+            "timestamp" : "2025-02-27T01:44:05.471Z",
+            "from" : "118.163.88.52"
+          },
+          "lastFailedLogin" : {
+            "timestamp" : "2025-02-27T01:20:08.029Z",
+            "from" : "172.18.0.1"
+          },
+          "authenticationAttempt" : {
+            "sequenceIdentifier" : "rest-default",
+            "moduleIdentifier" : "httpBasic",
+            "lastSuccessfulAuthentication" : {
+              "timestamp" : "2025-02-27T01:44:59.704Z",
+              "from" : "118.163.88.52"
+            },
+            "lastFailedAuthentication" : {
+              "timestamp" : "2025-02-27T01:20:08.014Z",
+              "from" : "172.18.0.1"
+            },
+            "failedAttempts" : 0
+          },
+          "sequenceIdentifier" : "rest-default"
+        } ]
+      },
+      "fullName" : "Jeff Wu",
+      "givenName" : "midPoint",
+      "familyName" : "Administrator"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:12.607Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:12.770Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:12.509Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:12.607Z"
+        }
+      },
+      "oid" : "ab418c18-a4fa-4b04-b66c-6d8cd42b3b90",
+      "version" : "3",
+      "name" : "007",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:12.810Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000924
+          },
+          "objectName" : "007"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000925
+          },
+          "objectName" : "007",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000926
+          },
+          "objectName" : "007"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:12.607Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:12.509Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:12.607Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "ab418c18-a4fa-4b04-b66c-6d8cd42b3b90",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "a706fe39-8217-474c-8478-15a2e0026a7c",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:12.509Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:12.509Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "2ksMpHw2Qe116oK0hq0po4PdEfO+uttF0Edb7PcmoH0="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Ivan Noris",
+      "givenName" : "Ivan",
+      "familyName" : "Noris",
+      "personalNumber" : "007"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:13.009Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:13.182Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:12.920Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:13.009Z"
+        }
+      },
+      "oid" : "c7c15bb2-c146-4a65-b520-6b6d203a6876",
+      "version" : "3",
+      "name" : "008",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:13.230Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000950
+          },
+          "objectName" : "008"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000951
+          },
+          "objectName" : "008",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000000952
+          },
+          "objectName" : "008"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:13.009Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:12.920Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:13.009Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "c7c15bb2-c146-4a65-b520-6b6d203a6876",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "67a26fef-3228-4c83-9a75-d3ace3621897",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:12.921Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:12.921Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "5KIFEuCPb3YOWAIAPGWhNYfMz2LGZKuup8K36I1MwUc="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Gustáv Pálos",
+      "givenName" : "Gustáv",
+      "familyName" : "Pálos",
+      "personalNumber" : "008"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:14.197Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:14.342Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:14.114Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:14.197Z"
+        }
+      },
+      "oid" : "b2b1b42a-efbe-4c7a-8c73-82113005b4db",
+      "version" : "3",
+      "name" : "011",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:14.379Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001028
+          },
+          "objectName" : "011"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001029
+          },
+          "objectName" : "011",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001030
+          },
+          "objectName" : "011"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:14.197Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:14.114Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:14.197Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "b2b1b42a-efbe-4c7a-8c73-82113005b4db",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "63493616-4105-4e37-a62b-9d0de2fcad6b",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:14.115Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:14.115Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "z9t7b234O3j/bkFgXvpgRu/rinyUkNeIvQizFMwKJq8="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Katarína Stanovská",
+      "givenName" : "Katarína",
+      "familyName" : "Stanovská",
+      "personalNumber" : "011"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:14.630Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:14.773Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:14.476Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:14.630Z"
+        }
+      },
+      "oid" : "928e9b3e-7a13-4a6b-a508-4a7041ddda0a",
+      "version" : "3",
+      "name" : "012",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:14.809Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001054
+          },
+          "objectName" : "012"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001055
+          },
+          "objectName" : "012",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001056
+          },
+          "objectName" : "012"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:14.630Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:14.476Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:14.630Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "928e9b3e-7a13-4a6b-a508-4a7041ddda0a",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "248e44be-24b8-46e7-b2dc-8dc3f281a88b",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:14.477Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:14.477Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "MH3hke+58o5Ur+9CyKDm7vCAo08GtnSTHgd35ridje8="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Martina Benčková",
+      "givenName" : "Martina",
+      "familyName" : "Benčková",
+      "personalNumber" : "012"
+    }, {
+      "@ns" : "http://midpoint.evolveum.com/xml/ns/public/common/common-3",
+      "@type" : "c:UserType",
+      "@metadata" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@id" : 2,
+        "storage" : {
+          "createTimestamp" : "2025-01-28T16:05:14.963Z",
+          "creatorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import",
+          "modifyTimestamp" : "2025-01-28T16:05:15.117Z",
+          "modifierRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          },
+          "modifyChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+        },
+        "process" : {
+          "requestTimestamp" : "2025-01-28T16:05:14.893Z",
+          "requestorRef" : {
+            "oid" : "00000000-0000-0000-0000-000000000002",
+            "relation" : "org:default",
+            "type" : "c:UserType"
+          }
+        },
+        "provisioning" : {
+          "lastProvisioningTimestamp" : "2025-01-28T16:05:14.963Z"
+        }
+      },
+      "oid" : "b7978c7a-cd46-48a2-ab4c-40f8df772ad2",
+      "version" : "3",
+      "name" : "013",
+      "operationExecution" : {
+        "@id" : 9,
+        "recordType" : "simple",
+        "timestamp" : "2025-01-28T16:05:15.155Z",
+        "operation" : [ {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "add",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001080
+          },
+          "objectName" : "013"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001081
+          },
+          "objectName" : "013",
+          "resourceOid" : "03c3ceea-78e2-11e6-954d-dfdfa9ace0cf",
+          "resourceName" : "HR System"
+        }, {
+          "objectDelta" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "changeType" : "modify",
+            "objectType" : "c:UserType"
+          },
+          "executionResult" : {
+            "operation" : "com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta",
+            "status" : "success",
+            "importance" : "normal",
+            "token" : 1000000000000001082
+          },
+          "objectName" : "013"
+        } ],
+        "status" : "success",
+        "initiatorRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000002",
+          "relation" : "org:default",
+          "type" : "c:UserType"
+        },
+        "channel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+      },
+      "assignment" : {
+        "@metadata" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "@id" : 3,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:14.963Z",
+            "creatorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            },
+            "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+          },
+          "process" : {
+            "requestTimestamp" : "2025-01-28T16:05:14.893Z",
+            "requestorRef" : {
+              "oid" : "00000000-0000-0000-0000-000000000002",
+              "relation" : "org:default",
+              "type" : "c:UserType"
+            }
+          }
+        },
+        "@id" : 1,
+        "targetRef" : {
+          "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+          "oid" : "00000000-0000-0000-0000-000000000702",
+          "relation" : "org:default",
+          "type" : "c:ArchetypeType"
+        },
+        "activation" : {
+          "effectiveStatus" : "enabled"
+        }
+      },
+      "iteration" : 0,
+      "iterationToken" : "",
+      "archetypeRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "roleMembershipRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "@metadata" : {
+          "@id" : 7,
+          "storage" : {
+            "createTimestamp" : "2025-01-28T16:05:14.963Z"
+          },
+          "provenance" : {
+            "assignmentPath" : {
+              "sourceRef" : {
+                "oid" : "b7978c7a-cd46-48a2-ab4c-40f8df772ad2",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "segment" : {
+                "@id" : 8,
+                "segmentOrder" : 1,
+                "assignmentId" : 1,
+                "targetRef" : {
+                  "oid" : "00000000-0000-0000-0000-000000000702",
+                  "relation" : "org:default",
+                  "type" : "c:ArchetypeType"
+                },
+                "matchingOrder" : true
+              }
+            }
+          }
+        },
+        "oid" : "00000000-0000-0000-0000-000000000702",
+        "relation" : "org:default",
+        "type" : "c:ArchetypeType"
+      },
+      "linkRef" : {
+        "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+        "oid" : "407823d7-a9f9-45be-96ff-68f5ccde5dbb",
+        "relation" : "org:default",
+        "type" : "c:ShadowType"
+      },
+      "activation" : {
+        "effectiveStatus" : "enabled",
+        "enableTimestamp" : "2025-01-28T16:05:14.893Z"
+      },
+      "credentials" : {
+        "password" : {
+          "@metadata" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "@id" : 4,
+            "storage" : {
+              "createTimestamp" : "2025-01-28T16:05:14.893Z",
+              "creatorRef" : {
+                "oid" : "00000000-0000-0000-0000-000000000002",
+                "relation" : "org:default",
+                "type" : "c:UserType"
+              },
+              "createChannel" : "http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import"
+            }
+          },
+          "value" : {
+            "@ns" : "http://prism.evolveum.com/xml/ns/public/types-3",
+            "encryptedData" : {
+              "encryptionMethod" : {
+                "algorithm" : "http://www.w3.org/2001/04/xmlenc#aes256-cbc"
+              },
+              "keyInfo" : {
+                "keyName" : "XJji4lJZvZ10FyTpoGvaH2Y4yuo="
+              },
+              "cipherData" : {
+                "cipherValue" : "/u0igkNAVGBjCP61tMigpsedCrS/KqXWHwf/C9S2eR0="
+              }
+            }
+          }
+        }
+      },
+      "fullName" : "Matúš Macík",
+      "givenName" : "Matúš",
+      "familyName" : "Macík",
+      "personalNumber" : "013"
+    } ]
+  }
+}
