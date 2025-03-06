@@ -1,18 +1,21 @@
 import "./Users.css";
 import { useContext, useEffect, useRef, useState } from "react";
 import UserEntry from "./UserEntry";
-import { UserContext } from "./App";
-
-const SERVER = "http://localhost:5000";
+import { SettingsContext, UserContext } from "./App";
+import Button from "@mui/material/Button";
 
 function Users() {
+  const { midpoint, ldap } = useContext(SettingsContext);
+  const [midpointServer, setMidpointServer, midpointCreds, setMidpointCreds] =
+    midpoint;
   const { users, setUsers } = useContext(UserContext);
   const [isDisabled, setIsDisabled] = useState(false);
 
   const pullInfo = () =>
-    fetch(`${SERVER}/midpoint/users/search`, {
+    fetch(`${midpointServer}/midpoint/users/search`, {
       method: "POST",
       headers: {
+        Authorization: midpointCreds,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ query: "" }),
@@ -39,9 +42,10 @@ function Users() {
     users
       .filter((user) => user["statusChanged"])
       .map((user) =>
-        fetch(`${SERVER}/midpoint/users/${user["oid"]}`, {
+        fetch(`${midpointServer}/midpoint/users/${user["oid"]}`, {
           method: "POST",
           headers: {
+            Authorization: midpointCreds,
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
@@ -59,18 +63,27 @@ function Users() {
   const syncInfo = () => {
     setIsDisabled(true);
     Promise.allSettled(pushInfo())
-      .then(() => new Promise((res) => setTimeout(res, 2000)))
+      .then(() => new Promise((res) => setTimeout(res, 3500)))
       .then(pullInfo())
       .then(() => setIsDisabled(false));
   };
 
-  useEffect(() => pullInfo, []);
+  useEffect(() => {
+    console.log("update");
+    pullInfo();
+  }, [midpointServer, midpointCreds]);
 
   return (
     <>
       <h2>
         Users
-        <button onClick={syncInfo}>Sync</button>
+        <Button
+          style={{ marginLeft: "1rem" }}
+          variant="contained"
+          onClick={syncInfo}
+        >
+          Sync
+        </Button>
       </h2>
       {users.length ? (
         <table>
@@ -89,7 +102,6 @@ function Users() {
                 username={user["givenName"]}
                 status={user["status"]}
                 updateStatus={(verdict) => {
-                  console.log("updateStatus()", index, verdict);
                   const elem = users[index];
                   const newElem = {
                     ...elem,
@@ -109,7 +121,7 @@ function Users() {
           </tbody>
         </table>
       ) : (
-        <span>Fetching from MidPoint...</span>
+        <span>Fetching from MidPoint server at {midpointServer}...</span>
       )}
     </>
   );

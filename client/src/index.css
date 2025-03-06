@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Abel, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,7 +15,7 @@
 
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 2rem;
 }
 
@@ -25,29 +25,3 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
-#Status {
-  position: absolute;
-  left: 381px;
-  top: 133px;
-  width: 1158px;
-  height: 197.14px;
-  color: #ff0000;
-  font-family: "Alfa Slab One";
-  font-size: 144px;
-  font-weight: 400;
-}
-
-#Title {
-  position: absolute;
-  left: 31px;
-  top: 22px;
-  width: 163px;
-  height: 47px;
-  font-family: Abel;
-  font-size: 40px;
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: -0.4px;
-}
-

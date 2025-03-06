@@ -9,6 +9,7 @@ function UserEntry({ uid, username, status, updateStatus, isDisabled }) {
         <td>{username}</td>
         <td>
           {
+            
             <select disabled={isDisabled} value={status} onChange={(e) => updateStatus(e.target.value)}>
               <option value={0}>Active</option>
               <option value={1}>Suspended</option>
