@@ -15,22 +15,29 @@ function App() {
 
   return (
     <>
-      <h1>Cyber Intelligent Admin</h1>
       <SettingsContext.Provider
         value={{
-          midpoint: [midpointServer, setMidpointServer, midpointCreds, setMidpointCreds],
+          midpoint: [
+            midpointServer,
+            setMidpointServer,
+            midpointCreds,
+            setMidpointCreds,
+          ],
           ldap: [ldapServer, setLdapServer],
         }}
       >
         <UserContext.Provider value={{ users, setUsers }}>
-          <Settings></Settings>
+          <h1>
+            <span style={{ marginRight: "5rem" }}>Cyber Intelligent Admin</span>
+            <Settings></Settings>
+          </h1>
 
           <div className="container">
-            <div className="panel">
+            <div className="users">
               <Users></Users>
             </div>
 
-            <div className="panel">
+            <div className="dashboard">
               <Dashboard></Dashboard>
             </div>
           </div>

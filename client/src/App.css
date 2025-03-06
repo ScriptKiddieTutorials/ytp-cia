@@ -1,6 +1,6 @@
 h1, h2 {
   font-family: "Alfa Slab One";
-  margin: 0px 0px;
+  margin: 15px 0px;
 }
 
 h1 {
@@ -21,7 +21,14 @@ h1, h2 {
   display: flex;
 }
 
-.panel {
-  width: 500px;
-  margin: 5%;
+.users .dashboard {
+  margin: 10%;
+}
+
+.users {
+  flex: 45%;
+}
+
+.dashboard {
+  flex: 55%;
 }

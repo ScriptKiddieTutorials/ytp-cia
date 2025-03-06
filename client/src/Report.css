@@ -1,11 +1,6 @@
-.report-container {
-  display: block
-}
-
 .report {
   border: 2px solid;
   margin: 1rem;
   padding: 1rem;
-  border-radius: 5%;
   text-align: left;
 }
