@@ -10,8 +10,8 @@ import Button from "@mui/material/Button";
 const initEntries = `user11@ytpjaj.org;1,2,3;011;login failed;wrong password;2024-02-04 17:30:55.074193;192.168.122.29
 user5@ytpjaj.org;1,3;005;login successful;;2024-02-05 17:36:55.074113;192.168.61.216
 user12@ytpjaj.org;1;012;login failed;wrong account;2024-02-06 06:31:25.075627;192.168.4.251
-user32@ytpjaj.org;1,2,3;32;logout successful;;2024-02-07 21:36:55.120189;192.168.16.184
-user52@ytpjaj.org;1,3;52;login successful;;2024-02-08 05:52:25.086095;192.168.220.214`;
+user8@ytpjaj.org;1,2,3;008;logout successful;;2024-02-07 21:36:55.120189;192.168.16.184
+user7@ytpjaj.org;1,3;007;login successful;;2024-02-08 05:52:25.086095;192.168.220.214`;
 
 function Status({ status, setStatus }) {
   const curRun = useRef(0);

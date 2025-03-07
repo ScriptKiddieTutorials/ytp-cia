@@ -8,6 +8,7 @@ function Users() {
   const { midpoint, ldap } = useContext(SettingsContext);
   const [midpointServer, setMidpointServer, midpointCreds, setMidpointCreds] =
     midpoint;
+    
   const { users, setUsers } = useContext(UserContext);
   const [isDisabled, setIsDisabled] = useState(false);
 
@@ -63,8 +64,8 @@ function Users() {
   const syncInfo = () => {
     setIsDisabled(true);
     Promise.allSettled(pushInfo())
-      .then(() => new Promise((res) => setTimeout(res, 3500)))
-      .then(pullInfo())
+      .then(() => new Promise((res) => setTimeout(res, 3000)))
+      .then(pullInfo)
       .then(() => setIsDisabled(false));
   };
 
