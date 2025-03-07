@@ -8,12 +8,25 @@ const MIDPOINT_API = "http://104.155.229.110:8080/midpoint/ws/rest";
 const MODEL_API = "http://localhost:8000";
 
 // Constants
-const SYS_PROMPT = `Provided login records flagged as anomalies by an AI detection system, generate a report analyzing their commonalities.
+const SYS_PROMPT = `
+# Instructions
+Generate a report analyzing login records that could be insightful for a system admin.
+-  Limit your response to 150 words.
+-  Focus on general trends.
+-  Use HTML instead of Markdown formatting. Headers begin with <h3>.
+-  Do not include tables.
 
-1. Limit your response to 150 words.
-2. Your response should be insightful for a system admin.
-3. Use HTML instead of Markdown formatting.
-4. Do not include tables.
+# Verdict Codes
+0 = normal
+1 = anomaly
+2 = blocked
+
+# Response Format
+- OVERVIEW
+- SECURITY RISKS
+- RECOMMENDED ACTIONS
+
+# Login Records
 `;
 
 const app = express();

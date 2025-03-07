@@ -9,6 +9,8 @@ export const CSV_COLS = [
   "IP",
 ];
 
+export const REPORT_COLS = ["verdict", ...CSV_COLS];
+
 export const csvToDict = (data) => {
   const res = {};
   const dataList = data.split(";");
@@ -20,6 +22,6 @@ export const csvToDict = (data) => {
 
 export const dictToCsv = (data) =>
   [
-    CSV_COLS.join(";"),
-    ...data.map((entry) => CSV_COLS.map((key) => entry[key]).join(";")),
+    REPORT_COLS.join(";"),
+    ...data.map((entry) => REPORT_COLS.map((key) => entry[key]).join(";")),
   ].join("\n");
